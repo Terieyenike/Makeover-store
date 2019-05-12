@@ -41,6 +41,22 @@ body {
 .nav-icon {
   font-size: 1.5rem;
 }
+
+.main-nav {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+li {
+  padding: 20px
+}
+
+a {
+  text-decoration: none
+}
+
 .cart-btn {
   position: relative;
   cursor: pointer;
@@ -54,6 +70,42 @@ body {
   border-radius: 30%;
   color: var(--mainWhite);
 }
+
+/* ----Footer -------->
+/* Footer */
+
+.footer {
+  background: #fff;
+  display: grid;
+  grid-auto-flow: column;
+  justify-content: space-between;
+}
+
+.social-icons {
+  list-style: none;
+  margin: 0;
+  display: flex;
+}
+
+.footer-left {
+  padding: 20px;
+}
+
+.sticky-bottom {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.copyright {
+  font-weight: 400;
+  color: #00aaff;
+}
+
+a.twitter {
+  color: #00aaff;
+}
+
 /* --------------- End of Navbar ---------------- */
 
 .hero {
